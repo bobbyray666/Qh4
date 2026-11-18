@@ -1,0 +1,16 @@
+QH4-Pelagos-Adapter (qh4-experimental)
+Version: 0.2.0
+License: Apache License, Version 2.0
+
+This workspace is an independent experimental implementation of the
+QH4-FieldPermutation v0.2.0 specification over F_{65,537}.
+
+Project Isolation Notice:
+- Strictly isolated from historical codebases, external decoders, and
+  proprietary engines.
+- Multi-GPU process-backend orchestration patterns are independently adapted
+  under Apache 2.0 attribution conventions (inspired by Pelagos process-backend
+  device isolation, static quotient+remainder sharding, and persistent workers).
+- If external upstream orchestration repositories are vendored or pinned, record
+  exact upstream commit SHA and Apache 2.0 copyright headers here prior to
+  distribution.

@@ -1,0 +1,115 @@
+digraph "QH4_16B-D32" {
+  rankdir=TB;
+  node [fontname="Helvetica", fontsize=10, shape=box, style="rounded,filled", color="#CBD5E1"];
+  edge [color="#475569", arrowsize=0.7];
+
+  subgraph cluster_layout {
+    label="Data Arrangement: 16B-D32 (16 Blocks x 2 Lane(s) = 32D)";
+    style="rounded"; color="#94A3B8"; bgcolor="#F8FAFC";
+    subgraph cluster_block_0 {
+      label="B0"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_0 [label="x[0]=1\na=36366, b=30235\ny[0]=46330", fillcolor="#EFF6FF"];
+      lane_1 [label="x[1]=0\na=3545, b=5983\ny[1]=29516", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_1 {
+      label="B1"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_2 [label="x[2]=0\na=30968, b=24384\ny[2]=47619", fillcolor="#EFF6FF"];
+      lane_3 [label="x[3]=0\na=26167, b=38081\ny[3]=16511", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_2 {
+      label="B2"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_4 [label="x[4]=0\na=45885, b=54580\ny[4]=16479", fillcolor="#EFF6FF"];
+      lane_5 [label="x[5]=0\na=23144, b=59431\ny[5]=30812", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_3 {
+      label="B3"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_6 [label="x[6]=0\na=42230, b=651\ny[6]=56442", fillcolor="#EFF6FF"];
+      lane_7 [label="x[7]=0\na=60359, b=62127\ny[7]=11386", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_4 {
+      label="B4"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_8 [label="x[8]=0\na=13573, b=36964\ny[8]=65293", fillcolor="#EFF6FF"];
+      lane_9 [label="x[9]=0\na=64771, b=2672\ny[9]=55926", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_5 {
+      label="B5"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_10 [label="x[10]=0\na=5396, b=11548\ny[10]=17858", fillcolor="#EFF6FF"];
+      lane_11 [label="x[11]=0\na=16545, b=5579\ny[11]=4634", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_6 {
+      label="B6"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_12 [label="x[12]=0\na=62287, b=1799\ny[12]=53915", fillcolor="#EFF6FF"];
+      lane_13 [label="x[13]=0\na=44149, b=36264\ny[13]=24330", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_7 {
+      label="B7"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_14 [label="x[14]=0\na=38769, b=10616\ny[14]=5404", fillcolor="#EFF6FF"];
+      lane_15 [label="x[15]=0\na=45890, b=14664\ny[15]=58988", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_8 {
+      label="B8"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_16 [label="x[16]=0\na=63519, b=18897\ny[16]=20285", fillcolor="#EFF6FF"];
+      lane_17 [label="x[17]=0\na=26144, b=6079\ny[17]=5758", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_9 {
+      label="B9"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_18 [label="x[18]=0\na=28996, b=49806\ny[18]=45036", fillcolor="#EFF6FF"];
+      lane_19 [label="x[19]=0\na=33217, b=36862\ny[19]=32220", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_10 {
+      label="B10"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_20 [label="x[20]=0\na=28782, b=18662\ny[20]=38351", fillcolor="#EFF6FF"];
+      lane_21 [label="x[21]=0\na=32415, b=64123\ny[21]=47959", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_11 {
+      label="B11"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_22 [label="x[22]=0\na=11058, b=31193\ny[22]=8886", fillcolor="#EFF6FF"];
+      lane_23 [label="x[23]=0\na=19924, b=43930\ny[23]=2388", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_12 {
+      label="B12"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_24 [label="x[24]=0\na=49271, b=51168\ny[24]=17733", fillcolor="#EFF6FF"];
+      lane_25 [label="x[25]=0\na=55797, b=33565\ny[25]=37454", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_13 {
+      label="B13"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_26 [label="x[26]=0\na=62629, b=55990\ny[26]=64273", fillcolor="#EFF6FF"];
+      lane_27 [label="x[27]=0\na=16703, b=36941\ny[27]=9976", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_14 {
+      label="B14"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_28 [label="x[28]=0\na=28103, b=10495\ny[28]=63184", fillcolor="#EFF6FF"];
+      lane_29 [label="x[29]=0\na=1812, b=23272\ny[29]=19416", fillcolor="#EFF6FF"];
+    }
+    subgraph cluster_block_15 {
+      label="B15"; style="filled"; fillcolor="#FFFFFF"; color="#CBD5E1";
+      lane_30 [label="x[30]=0\na=18450, b=4819\ny[30]=9077", fillcolor="#EFF6FF"];
+      lane_31 [label="x[31]=0\na=38581, b=10890\ny[31]=42824", fillcolor="#EFF6FF"];
+    }
+  }
+
+  stage_0 [label="Input x\n[1, 0, 0, 0, ...]", fillcolor="#DBEAFE" fontcolor="#0F172A"];
+  stage_1 [label="Forward Scalar S\n[1064, 5983, 24384, 38081, ...]", fillcolor="#DBEAFE" fontcolor="#0F172A"];
+  stage_0 -> stage_1;
+  stage_2 [label="L1 · Sweep 1 (i -> i+1)\n[7047, 30367, 62465, 27124, ...]", fillcolor="#DBEAFE" fontcolor="#0F172A"];
+  stage_1 -> stage_2;
+  stage_3 [label="L1 · Sweep 2 (i -> i-1)\n[7047, 37414, 27295, 24052, ...]", fillcolor="#DBEAFE" fontcolor="#0F172A"];
+  stage_2 -> stage_3;
+  stage_64 [label="L32 · Sweep 1 (i -> i+1)\n[46330, 48723, 64433, 17615, ...]", fillcolor="#DBEAFE" fontcolor="#0F172A"];
+  stage_3 -> stage_64;
+  stage_65 [label="L32 · Sweep 2 (i -> i-1)\n[46330, 29516, 47619, 16511, ...]", fillcolor="#DBEAFE" fontcolor="#0F172A"];
+  stage_64 -> stage_65;
+  stage_66 [label="Forward Output y = T_n(x)\n[46330, 29516, 47619, 16511, ...]", fillcolor="#0F4C81" fontcolor="#FFFFFF"];
+  stage_65 -> stage_66;
+  stage_67 [label="Inv L32 · Undo Sweep 2\n[46330, 48723, 64433, 17615, ...]", fillcolor="#E0F2FE" fontcolor="#0F172A"];
+  stage_66 -> stage_67;
+  stage_68 [label="Inv L32 · Undo Sweep 1\n[43650, 2680, 46043, 18390, ...]", fillcolor="#E0F2FE" fontcolor="#0F172A"];
+  stage_67 -> stage_68;
+  stage_129 [label="Inv L1 · Undo Sweep 2\n[7047, 30367, 62465, 27124, ...]", fillcolor="#E0F2FE" fontcolor="#0F172A"];
+  stage_68 -> stage_129;
+  stage_130 [label="Inv L1 · Undo Sweep 1\n[1064, 5983, 24384, 38081, ...]", fillcolor="#E0F2FE" fontcolor="#0F172A"];
+  stage_129 -> stage_130;
+  stage_131 [label="Inverse Scalar S^{-1} (Recovered x)\n[1, 0, 0, 0, ...]", fillcolor="#E0F2FE" fontcolor="#0F172A"];
+  stage_130 -> stage_131;
+  lane_0 -> stage_0 [style=dashed, label="init"];
+}

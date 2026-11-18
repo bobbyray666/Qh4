@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qh4-pelagos-adapter"
+version = "0.2.0"
+description = "Independent QH4-FieldPermutation v0.2.0 experimental reference, Triton kernels, and Pelagos-style multi-GPU adapter"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+numpy = ["numpy>=1.24"]
+gpu = ["numpy>=1.24", "torch>=2.2", "triton>=2.2"]
+dev = ["pytest>=8.0"]
+viz = ["matplotlib>=3.8", "graphviz>=0.20"]

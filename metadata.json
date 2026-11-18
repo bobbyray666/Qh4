@@ -1,0 +1,6 @@
+{
+  "name": "QH4-FieldPermutation",
+  "description": "QH4-FieldPermutation v0.2.0 interactive vector transformation visualizer, mathematical verification suite, and Pelagos multi-GPU adapter workbench over F_65537.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
